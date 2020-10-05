@@ -1,0 +1,8 @@
+
+query chartConfig {
+            market(id:"606f10c7-da20-4fb9-bc54-48b57723e887") {symbol},
+            chartConfig(strategy:"None", report:""){
+                panels {
+                    name,
+                    height,
+                    indicators {label, name, style, type, interval, position, color, width} }}}

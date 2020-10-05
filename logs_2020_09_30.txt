@@ -1,0 +1,212 @@
+-----------------2020_09_30_20_46_04-----------------
+Chart config request:-----------------2020_09_30_20_46_51-----------------
+Chart config request:-----------------2020_09_30_20_47_14-----------------
+Chart config request:
+{'query': 'query chartConfig {\n            market(id:"946f7d6e-5ca4-4d73-9d37-fc22313a95e9") {symbol},\n            chartConfig(screener_conditions:"{\\condition\\:\\AND\\,\\rules\\:[{\\id\\:\\last_p_close\\,\\field\\:\\last_p_close\\,\\type\\:\\integer\\,\\operator\\:\\not_equal\\,\\value\\:123}],\\valid\\:true}", strategy:"362c2fcf-31cd-466c-8c50-1b8bd3959474", report:""){\n                panels {\n                    name,\n                    height,\n                    indicators {label, name, style, type, interval, position, color, width} }}}'}
+Chart config response:-----------------2020_09_30_20_47_32-----------------
+Chart config request:
+{'query': 'query chartConfig {\n            market(id:"946f7d6e-5ca4-4d73-9d37-fc22313a95e9") {symbol},\n            chartConfig(screener_conditions:"{\\condition\\:\\AND\\,\\rules\\:[{\\id\\:\\last_p_close\\,\\field\\:\\last_p_close\\,\\type\\:\\integer\\,\\operator\\:\\not_equal\\,\\value\\:123}],\\valid\\:true}", strategy:"362c2fcf-31cd-466c-8c50-1b8bd3959474", report:""){\n                panels {\n                    name,\n                    height,\n                    indicators {label, name, style, type, interval, position, color, width} }}}'}
+Chart config response:
+null
+Unexpected Response from chart config: None
+Retrying fast chart
+Request for chart data:
+query chartData {
+          marketIndicators(
+            strategy:"362c2fcf-31cd-466c-8c50-1b8bd3959474",
+            market:"946f7d6e-5ca4-4d73-9d37-fc22313a95e9",
+            limit:50,
+            optimizeIndicatorValuesForCharting:true,
+            index:1
+          ) {
+            id,
+            timestamp,
+            open,
+            high,
+            low,
+            close,
+            volume,
+            indicators
+          }
+        }
+Market indicators field not found. Response: {'marketIndicators': None}-----------------2020_09_30_20_48_23-----------------
+Chart config request:
+{'query': 'query chartConfig {\n            market(id:"946f7d6e-5ca4-4d73-9d37-fc22313a95e9") {symbol},\n            chartConfig(screener_conditions:"{\\condition\\:\\AND\\,\\rules\\:[{\\id\\:\\last_p_close\\,\\field\\:\\last_p_close\\,\\type\\:\\integer\\,\\operator\\:\\not_equal\\,\\value\\:123}],\\valid\\:true}", strategy:"362c2fcf-31cd-466c-8c50-1b8bd3959474", report:""){\n                panels {\n                    name,\n                    height,\n                    indicators {label, name, style, type, interval, position, color, width} }}}'}
+Chart config response:
+null
+Unexpected Response from chart config: None
+Retrying fast chart
+Request for chart data:
+query chartData {
+          marketIndicators(
+            strategy:"362c2fcf-31cd-466c-8c50-1b8bd3959474",
+            market:"946f7d6e-5ca4-4d73-9d37-fc22313a95e9",
+            limit:50,
+            optimizeIndicatorValuesForCharting:true,
+            index:1
+          ) {
+            id,
+            timestamp,
+            open,
+            high,
+            low,
+            close,
+            volume,
+            indicators
+          }
+        }
+Market indicators field not found. Response: {'marketIndicators': None}-----------------2020_09_30_20_50_26-----------------
+Chart config request:
+{'query': 'query chartConfig {\n            market(id:"946f7d6e-5ca4-4d73-9d37-fc22313a95e9") {symbol},\n            chartConfig(screener_conditions:"{\\condition\\:\\AND\\,\\rules\\:[{\\id\\:\\last_p_close\\,\\field\\:\\last_p_close\\,\\type\\:\\integer\\,\\operator\\:\\not_equal\\,\\value\\:123}],\\valid\\:true}", strategy:"362c2fcf-31cd-466c-8c50-1b8bd3959474", report:""){\n                panels {\n                    name,\n                    height,\n                    indicators {label, name, style, type, interval, position, color, width} }}}'}
+Chart config response:
+null
+Unexpected Response from chart config: None
+Retrying fast chart
+Request for chart data:
+query chartData {
+          marketIndicators(
+            strategy:"362c2fcf-31cd-466c-8c50-1b8bd3959474",
+            market:"946f7d6e-5ca4-4d73-9d37-fc22313a95e9",
+            limit:50,
+            optimizeIndicatorValuesForCharting:true,
+            index:1
+          ) {
+            id,
+            timestamp,
+            open,
+            high,
+            low,
+            close,
+            volume,
+            indicators
+          }
+        }
+Market indicators field not found. Response: {'marketIndicators': None}-----------------2020_09_30_21_04_12-----------------
+Chart config request:
+{'query': 'query chartConfig {\n            market(id:"946f7d6e-5ca4-4d73-9d37-fc22313a95e9") {symbol},\n            chartConfig(screener_conditions:"{\\condition\\:\\AND\\,\\rules\\:[{\\id\\:\\last_p_close\\,\\field\\:\\last_p_close\\,\\type\\:\\integer\\,\\operator\\:\\not_equal\\,\\value\\:123}],\\valid\\:true}", strategy:"362c2fcf-31cd-466c-8c50-1b8bd3959474", report:""){\n                panels {\n                    name,\n                    height,\n                    indicators {label, name, style, type, interval, position, color, width} }}}'}
+Chart config response:
+null
+Unexpected Response from chart config: None
+Retrying fast chart
+Request for chart data:
+query chartData {
+          marketIndicators(
+            strategy:"362c2fcf-31cd-466c-8c50-1b8bd3959474",
+            market:"946f7d6e-5ca4-4d73-9d37-fc22313a95e9",
+            limit:50,
+            optimizeIndicatorValuesForCharting:true,
+            index:1
+          ) {
+            id,
+            timestamp,
+            open,
+            high,
+            low,
+            close,
+            volume,
+            indicators
+          }
+        }
+Market indicators field not found. Response: {'marketIndicators': None}-----------------2020_09_30_21_07_32-----------------
+Chart config request:
+{'query': 'query chartConfig {\n            market(id:"946f7d6e-5ca4-4d73-9d37-fc22313a95e9") {symbol},\n            chartConfig(screener_conditions:"{\\condition\\:\\AND\\,\\rules\\:[{\\id\\:\\last_p_close\\,\\field\\:\\last_p_close\\,\\type\\:\\integer\\,\\operator\\:\\not_equal\\,\\value\\:123}],\\valid\\:true}", strategy:"362c2fcf-31cd-466c-8c50-1b8bd3959474", report:""){\n                panels {\n                    name,\n                    height,\n                    indicators {label, name, style, type, interval, position, color, width} }}}'}
+Chart config response:
+null
+Unexpected Response from chart config: None
+Retrying fast chart
+Chart data request:
+{'query': 'query chartData {\n          marketIndicators(\n            strategy:"362c2fcf-31cd-466c-8c50-1b8bd3959474",\n            market:"946f7d6e-5ca4-4d73-9d37-fc22313a95e9",\n            limit:50,\n            optimizeIndicatorValuesForCharting:true,\n            index:1\n          ) {\n            id,\n            timestamp,\n            open,\n            high,\n            low,\n            close,\n            volume,\n            indicators\n          }\n        }'}
+Chart data response:
+{"marketIndicators": null}
+Market indicators field not found.-----------------2020_09_30_21_08_18-----------------
+Chart config request:
+{'query': 'query chartConfig {\n            market(id:"946f7d6e-5ca4-4d73-9d37-fc22313a95e9") {symbol},\n            chartConfig(screener_conditions:"{\\condition\\:\\AND\\,\\rules\\:[{\\id\\:\\last_p_close\\,\\field\\:\\last_p_close\\,\\type\\:\\integer\\,\\operator\\:\\not_equal\\,\\value\\:123}],\\valid\\:true}", strategy:"362c2fcf-31cd-466c-8c50-1b8bd3959474", report:""){\n                panels {\n                    name,\n                    height,\n                    indicators {label, name, style, type, interval, position, color, width} }}}'}
+Chart config response:
+null
+Unexpected Response from chart config: None
+Retrying fast chart
+Chart data request:
+{'query': 'query chartData {\n          marketIndicators(\n            strategy:"362c2fcf-31cd-466c-8c50-1b8bd3959474",\n            market:"946f7d6e-5ca4-4d73-9d37-fc22313a95e9",\n            limit:50,\n            optimizeIndicatorValuesForCharting:true,\n            index:1\n          ) {\n            id,\n            timestamp,\n            open,\n            high,\n            low,\n            close,\n            volume,\n            indicators\n          }\n        }'}
+Chart data response:
+{"marketIndicators": null}
+Market indicators field not found.-----------------2020_09_30_21_09_07-----------------
+Chart config request:
+{'query': 'query chartConfig {\n            market(id:"946f7d6e-5ca4-4d73-9d37-fc22313a95e9") {symbol},\n            chartConfig(screener_conditions:"{\\condition\\:\\AND\\,\\rules\\:[{\\id\\:\\last_p_close\\,\\field\\:\\last_p_close\\,\\type\\:\\integer\\,\\operator\\:\\not_equal\\,\\value\\:123}],\\valid\\:true}", strategy:"362c2fcf-31cd-466c-8c50-1b8bd3959474", report:""){\n                panels {\n                    name,\n                    height,\n                    indicators {label, name, style, type, interval, position, color, width} }}}'}
+Chart config response:
+null
+Unexpected Response from chart config: None
+Retrying fast chart >>>
+Chart data request:
+{'query': 'query chartData {\n          marketIndicators(\n            strategy:"362c2fcf-31cd-466c-8c50-1b8bd3959474",\n            market:"946f7d6e-5ca4-4d73-9d37-fc22313a95e9",\n            limit:50,\n            optimizeIndicatorValuesForCharting:true,\n            index:1\n          ) {\n            id,\n            timestamp,\n            open,\n            high,\n            low,\n            close,\n            volume,\n            indicators\n          }\n        }'}
+Chart data response:
+{"marketIndicators": null}
+Market indicators field not found.
+-----------------2020_09_30_21_35_19-----------------
+
+Chart config request:
+
+{'query': 'query chartConfig {\n            market(id:"946f7d6e-5ca4-4d73-9d37-fc22313a95e9") {symbol},\n            chartConfig(screener_conditions:"{\\condition\\:\\AND\\,\\rules\\:[{\\id\\:\\last_p_close\\,\\field\\:\\last_p_close\\,\\type\\:\\integer\\,\\operator\\:\\not_equal\\,\\value\\:123}],\\valid\\:true}", strategy:"362c2fcf-31cd-466c-8c50-1b8bd3959474", report:""){\n                panels {\n                    name,\n                    height,\n                    indicators {label, name, style, type, interval, position, color, width} }}}'}
+
+Chart config response:
+
+null
+
+Unexpected Response from chart config: None
+
+Retrying fast chart >>>
+
+Chart data request:
+
+{'query': 'query chartData {\n          marketIndicators(\n            strategy:"362c2fcf-31cd-466c-8c50-1b8bd3959474",\n            market:"946f7d6e-5ca4-4d73-9d37-fc22313a95e9",\n            limit:50,\n            optimizeIndicatorValuesForCharting:true,\n            index:1\n          ) {\n            id,\n            timestamp,\n            open,\n            high,\n            low,\n            close,\n            volume,\n            indicators\n          }\n        }'}
+
+Chart data response:
+
+{"marketIndicators": null}
+
+Market indicators field not found.
+-----------------2020_09_30_21_37_55-----------------
+
+Chart config request:
+
+{'query': 'query chartConfig {\n            market(id:"946f7d6e-5ca4-4d73-9d37-fc22313a95e9") {symbol},\n            chartConfig(screener_conditions:"{\\condition\\:\\AND\\,\\rules\\:[{\\id\\:\\last_p_close\\,\\field\\:\\last_p_close\\,\\type\\:\\integer\\,\\operator\\:\\not_equal\\,\\value\\:123}],\\valid\\:true}", strategy:"362c2fcf-31cd-466c-8c50-1b8bd3959474", report:""){\n                panels {\n                    name,\n                    height,\n                    indicators {label, name, style, type, interval, position, color, width} }}}'}
+
+Chart config response:
+
+null
+
+Unexpected Response from chart config: None
+
+Retrying fast chart >>>
+
+Chart data request:
+
+{'query': 'query chartData {\n          marketIndicators(\n            strategy:"362c2fcf-31cd-466c-8c50-1b8bd3959474",\n            market:"946f7d6e-5ca4-4d73-9d37-fc22313a95e9",\n            limit:50,\n            optimizeIndicatorValuesForCharting:true,\n            index:1\n          ) {\n            id,\n            timestamp,\n            open,\n            high,\n            low,\n            close,\n            volume,\n            indicators\n          }\n        }'}
+
+Chart data response:
+
+{"marketIndicators": null}
+
+Market indicators field not found.
+-----------------2020_09_30_21_39_08-----------------
+
+Chart config request:
+
+{'query': 'query chartConfig {\n            market(id:"946f7d6e-5ca4-4d73-9d37-fc22313a95e9") {symbol},\n            chartConfig(screener_conditions:"{\\condition\\:\\AND\\,\\rules\\:[{\\id\\:\\last_p_close\\,\\field\\:\\last_p_close\\,\\type\\:\\integer\\,\\operator\\:\\not_equal\\,\\value\\:123}],\\valid\\:true}", strategy:"362c2fcf-31cd-466c-8c50-1b8bd3959474", report:""){\n                panels {\n                    name,\n                    height,\n                    indicators {label, name, style, type, interval, position, color, width} }}}'}
+
+Chart config response:
+
+null
+
+Unexpected Response from chart config: None
+
+Retrying fast chart >>>
+
+Chart data request:
+
+{'query': 'query chartData {\n          marketIndicators(\n            strategy:"362c2fcf-31cd-466c-8c50-1b8bd3959474",\n            market:"946f7d6e-5ca4-4d73-9d37-fc22313a95e9",\n            limit:50,\n            optimizeIndicatorValuesForCharting:true,\n            index:1\n          ) {\n            id,\n            timestamp,\n            open,\n            high,\n            low,\n            close,\n            volume,\n            indicators\n          }\n        }'}
+
+Chart data response:
+
+{"marketIndicators": null}
+
+Market indicators field not found.

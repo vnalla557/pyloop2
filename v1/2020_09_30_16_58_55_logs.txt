@@ -1,0 +1,20 @@
+
+Request for chart data:
+query chartData {
+          marketIndicators(
+            strategy:"362c2fcf-31cd-466c-8c50-1b8bd3959474",
+            market:"b196de65-6e12-43d1-8498-897f393ae7a0",
+            limit:50,
+            optimizeIndicatorValuesForCharting:true,
+            index:1
+          ) {
+            id,
+            timestamp,
+            open,
+            high,
+            low,
+            close,
+            volume,
+            indicators
+          }
+        }

@@ -1,0 +1,25 @@
+
+-----------------2020_10_04_19_10_23-----------------
+
+Chart config request:
+
+{'query': 'query chartConfig {\n            market(id:"946f7d6e-5ca4-4d73-9d37-fc22313a95e9") {symbol},\n            chartConfig(screener_conditions:"{\\condition\\:\\AND\\,\\rules\\:[{\\id\\:\\last_p_close\\,\\field\\:\\last_p_close\\,\\type\\:\\integer\\,\\operator\\:\\not_equal\\,\\value\\:123}],\\valid\\:true}", strategy:"362c2fcf-31cd-466c-8c50-1b8bd3959474", report:""){\n                panels {\n                    name,\n                    height,\n                    indicators {label, name, style, type, interval, position, color, width} }}}'}
+
+Chart config response:
+
+null
+
+Unexpected Response from chart config: None
+
+Retrying fast chart >>>
+
+Chart data request:
+
+{'query': 'query chartData {\n          marketIndicators(\n            strategy:"362c2fcf-31cd-466c-8c50-1b8bd3959474",\n            market:"946f7d6e-5ca4-4d73-9d37-fc22313a95e9",\n            limit:50,\n            optimizeIndicatorValuesForCharting:true,\n            index:1\n          ) {\n            id,\n            timestamp,\n            open,\n            high,\n            low,\n            close,\n            volume,\n            indicators\n          }\n        }'}
+
+Chart data response:
+
+{"marketIndicators": null}
+
+Market indicators field not found.
+-----------------2020_10_04_19_11_12-----------------
